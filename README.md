@@ -24,5 +24,9 @@ The Featherlight Javascript and CSS were created by Noel Bossart,
 http://noelboss.com and are MIT licensed. See `featherlight.LICENSE` for the
 details.
 
+The `detect_swipe` JQuery plugin is Copyright (c) 2014 Marc-Andre Lafortune.
+See `detect_swipe.LICENSE` for details.
+
+
 This Bold plugin is Copyright (c) 2016 Jens Krämer and is released under the
 AGPL v3 just like Bold itself. See LICENSE for the full text.
