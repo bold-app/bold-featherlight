@@ -1,0 +1,7 @@
+en:
+  plugins:
+    featherlight:
+      settings:
+        gallery_enabled: Enable Featherlight Gallery
+        asset_tags: Load Featherlite
+        asset_tags_info: Disable this if your theme already loads the Featherlite JS and CSS.

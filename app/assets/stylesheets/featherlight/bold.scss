@@ -1,0 +1,16 @@
+
+.featherlight-content .caption {
+  margin: 0 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: small;
+  padding: 5px;
+  color: white;
+  background: rgba(black, 0.5);
+  display: none;
+}
+.featherlight-content:hover .caption {
+  display: block;
+}
+

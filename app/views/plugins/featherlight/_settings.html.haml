@@ -1,0 +1,7 @@
+.row
+  .col-xs-12
+    = f.config_input :gallery_enabled, as: :boolean, wrapper: :vertical_boolean, label: t('.gallery_enabled'), input_html: { checked: plugin_config.config['gallery_enabled'].to_i == 1 }
+.row
+  .col-xs-12
+    = f.config_input :asset_tags, as: :boolean, wrapper: :vertical_boolean, label: t('.asset_tags'), input_html: { checked: plugin_config.config['asset_tags'].to_i == 1 }
+    %p= t'.asset_tags_info'
