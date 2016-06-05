@@ -14,3 +14,8 @@
   display: block;
 }
 
+@media only screen and (max-width: 1024px) {
+  .featherlight .featherlight-content .caption {
+    margin: 0 10px;
+  }
+}
