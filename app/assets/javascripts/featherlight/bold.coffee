@@ -22,6 +22,6 @@ $ ->
   $('.featherlight-lightbox figure.image a')
     .featherlight featherlightOptions()
 
-  $('.featherlight-gallery figure.image a')
+  $('.featherlight-gallery figure.image a, .featherlight-gallery .photoset a')
     .featherlightGallery featherlightOptions()
 
