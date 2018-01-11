@@ -19,9 +19,9 @@ featherlightOptions = ->
       .css 'width', width
 
 $ ->
-  $('.featherlight-lightbox figure.image a')
+  $('.featherlight-lightbox img a')
     .featherlight featherlightOptions()
 
-  $('.featherlight-gallery figure.image a, .featherlight-gallery .photoset a')
+  $('.featherlight-gallery img a')
     .featherlightGallery featherlightOptions()
 
